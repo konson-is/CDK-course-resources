@@ -17,8 +17,8 @@ export class CdkCicdStack extends cdk.Stack {
           "konson-is/CDK-course-resources",
           "cicd-practice"
         ),
-        commands: ["cd cdk-cicd", "npm ci", "npx cdk synth"],
-        primaryOutputDirectory: "cdk-cicd/cdk.out",
+        commands: ["npm ci", "npx cdk synth"],
+        primaryOutputDirectory: "cdk.out",
       }),
     });
   }
